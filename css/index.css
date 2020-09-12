@@ -71,6 +71,26 @@ p {
     margin: 0 auto;
 }
 
+.header-content {
+    display: flex;
+	align-items: baseline;
+	justify-content: space-evenly;
+}
+
+header nav a {
+    color: black;
+    text-decoration: none;
+    align-items: center;
+}
+
+.top-image {
+    display: flex;
+	align-items: center;
+    justify-content: stretch;
+    margin-top: 2em;
+    margin-bottom: 1em;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -104,7 +124,6 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -112,6 +131,30 @@ p {
     justify-content: center;
 }
 
+#one {
+    background:teal;
+}
+#two {
+    background: gold;
+}
+#three {
+    background: cadetblue;
+}
+#four {
+    background: coral;
+}#five {
+    background: crimson;
+}#six {
+    background: forestgreen;
+}#seven {
+    background: darkorchid;
+}#eight {
+    background: hotpink;
+}#nine {
+    background: indigo;
+}#ten {
+    background: dodgerblue;
+}
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -143,4 +186,51 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+
+.about-top-content {
+    border-bottom: 1px dashed black;
+    margin-bottom: 2em;
+}
+
+.about-top-content p {
+    margin-bottom: 1.5em;
+}
+
+
+button {
+    background-color: white;
+    text-align: center;
+    border: 1px solid black;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    width: 10em;
+}
+
+.about-top-container {
+    display: flex;
+    flex-flow: column;
+    width: 48%;
+    padding: 0 1%;
+    padding-bottom: 20px;
+    border-bottom: 1px dashed black;
+      
+}
+
+.about-bottom-container {
+    display: flex;
+    flex-flow: column;
+    width: 48%;
+    padding: 0 1%;
+    padding-bottom: 20px;
+    border-bottom: 1px dashed black;
+    margin-top: 3em;
+      
+}
+
+.bottom-about {
+    margin-top: 2em;
+    margin-bottom: 2em;
 }
