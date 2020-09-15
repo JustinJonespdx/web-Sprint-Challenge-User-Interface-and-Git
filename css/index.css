@@ -209,9 +209,12 @@ button {
     width: 10em;
 }
 
-.about-top-container {
+.about-mid-content {
     display: flex;
-    flex-flow: column;
+    flex-flow: row wrap;
+}
+
+.about-one-container {
     width: 48%;
     padding: 0 1%;
     padding-bottom: 20px;
@@ -219,9 +222,24 @@ button {
       
 }
 
-.about-bottom-container {
-    display: flex;
-    flex-flow: column;
+.about-two-container {
+    width: 48%;
+    padding: 0 1%;
+    padding-bottom: 20px;
+    border-bottom: 1px dashed black;
+      
+}
+
+.about-three-container {
+    width: 48%;
+    padding: 0 1%;
+    padding-bottom: 20px;
+    border-bottom: 1px dashed black;
+    margin-top: 3em;
+      
+}
+
+.about-four-container {
     width: 48%;
     padding: 0 1%;
     padding-bottom: 20px;
